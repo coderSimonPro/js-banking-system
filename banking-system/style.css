@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #142b47;
+}
+.container-area{
+    width: 980px;
+    margin: 0 auto;
+    text-align:center;
+    padding-top: 5rem;
+}
+.main-content{
+    display: flex;
+    justify-content: center;
+}
+.display-deposite{
+    color: green;
+}
+.display-withdraw{
+    color: red;
+}
+.total-bal{
+    color: orange;
+}
+.inner-box{
+    width: 550px;
+    height: 150px;
+    background-color: black;
+    padding: 20px;
+    text-align:center;
+    margin: 5px;
+}
+.inner-box h3{
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 1rem;
+    margin-bottom: 0.5rem;
+    color: #fff;
+}
+input[type=text]{
+    width: 60%;
+    padding: 15px;
+    border-radius: 8px;
+    border: none;
+    outline:none;
+}
+input[type=text]:focus{
+    border: none;
+    outline:none;
+}
+span{
+    font-size: 32px;
+    color: #fff;
+}
+h1{
+    padding-bottom: 3rem;
+    color: #fff;
+    font-weight: bold;
+}
+h4{
+    font-size: 20px;
+    padding-bottom: 1rem;
+}
+.input-area{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+    padding-top: 3rem;
+}
+.deopositeText-Box{
+    width: 40%;
+    background-color: green;
+    padding: 30px;
+    color: #fff;
+    border-radius: 8px;
+
+}
+.withdrawText-Box{
+    width: 40%;
+    background-color: red;
+    padding: 30px;
+    color: #fff;
+    border-radius: 8px;
+}
+button{
+    border: none;
+    padding: 8px 13px;
+    border-radius: 8px;
+    background-color: orange;
+    color: #000000;
+    font-size: 20px;
+    font-weight:bold;
+    margin-top: 0.5rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+button:hover{
+    background-color: #000000;
+    color: #fff;
+}
